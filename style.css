@@ -104,30 +104,7 @@ ul li a{
     
 }
 
-ul li:after{
-    
-    content: "";
-    display: block;
-    height: 3px;
-    width: 0%;
-   
-    transition: width 0.5s ease;
-    background-color: transparent;
-}
-
-ul li:hover:after{
-    width: 100%;
-    margin: auto;
-    background-color: #02ffd5;
-    cursor: pointer;
-    /* border-radius: 4px;
-    border-radius: 50px; */
-    
-    
-    /* box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.822), -2px -2px 2px rgb(245, 245, 245);
-    backdrop-filter: blur(500px);
-    transition: 0.3s; */
-}
+ul
 .main{
     
     justify-content: center;
@@ -160,7 +137,9 @@ ul li:hover:after{
 /*  .cvbtn{
     border-radius: 50px;
     background: #0f7583;
-    margin-top: 10%;
+    margin-top: 1
+
+0%;
  }
 .text-effect{
     transform: translateX(100%);
