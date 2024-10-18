@@ -699,7 +699,7 @@ textarea{
 
 .footer{
     margin-top: 5rem;
-    width: 100%;
+    width: 100vw;
     background-color: #270b36;
     justify-content: center;
     margin-left: auto;
